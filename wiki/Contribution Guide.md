@@ -51,22 +51,22 @@ function IpCommand() {
     
 }
 ```
-The fucntion is currently empty. Now in order for something to happen, we need to code some stuff to get the user's IP address and display it. To get the user's public ip address, we could use a service like [ipify](https://www.ipify.org/). We just add the snippet to the terminal so it would look like this:
+The fucntion is currently empty. Now in order for something to happen, we need to code some stuff to get the user's IP address and display it. To get the user's public ip address, we could use a service like [ipinfo](https://ipinfo.io/). We just add the snippet to the terminal so at the end it would look like this:
 ```javascript
-// Snippet provided by Ipify
-<script type="application/javascript">
-  $(function() {
-    $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
-      function(json) {
-        //This is the native method of priting a text to the terminal
-        WriteToTerminal(json.ip);
-      }
-    );
-  });
-</script>
+function IpCommand() {
+    // Snippet provided by Ipinfo
+    $.get("http://ipinfo.io", function(response) {
+        //Native method to print a text to the terminal
+        WriteToTerminal(response.ip);
+    }, "jsonp");
+}
 ```
 And we are done! Simple as that we added a new command to the terminal emulator! As a matter of fact, this command shown in this example has not been implemented in the terminal emulator yet! You can be the first person to add it!
 
 ### Improving documentation
+This process is even easier than adding a new command! The process is akin to Wikipedia. In this wiki, at the top of everypage, you will see the following buttons: **Add new | Edit | Delete | History | Source | Add new post** You can esaily click on each of these buttons to edit a page or add new content. It's very simple and easy. This wiki is made using Markdown and Github. Everything in this wiki has been written using Markdown. Chances are, you are already familar with markdown. Take a look at this [Markdown cheatsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It is very useful! Don't forget to make a pull request after making a modification.
 ### Improving codebase
+All of the backend code of the terminal emulator is contained in `assets/js/main.js`. Everything is written is raw Javascript but I am not against JQuery. JQuery 3.5.1 already exist in the main branch.  
+The code could use a lot of improvements all across the board. Any help is greatly appreciated!
 ### Spreading the Word
+Tell your firends, tell your family, tell your local news paper about, show it to people who want to get into linux but do not have a technical background and are afraid of the Linux Terminal. Or you could just use it to play around and test things out!
