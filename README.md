@@ -13,4 +13,4 @@ Tit is named after the [birds of the same name](https://en.wikipedia.org/wiki/Ti
 The bird artwork featured on this page and seen elsewhere is called the Owston's tit.
 
 ## Contribute
-You can contribute to the TIT terminal emulator in many ways! We welcome all types of contributions. For more details, check out the [Contributions Guide](/wiki/Contribution%20Guide.md).
+You can contribute to the TIT terminal emulator in many ways! We welcome all types of contributions. For more details, check out the [Contributions Guide](Contribution%20Guide).
