@@ -17,3 +17,6 @@ You can contribute to the TIT terminal emulator in many ways! We welcome all typ
 
 # Getting Started
 To get started learning the terminal check out [Getting Started](Getting%20Started). You'll learn some basic command and the basic shortcuts.
+
+## Questions and help
+Reach out to us at the [forums](https://github.com/taha-mcp/interactive-terminal/discussions). It takes a minute to post a message to the forums, but you ensure that people will see your message and more people will be able to help you out. Come say hi!
