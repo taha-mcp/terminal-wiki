@@ -9,7 +9,7 @@ There are many ways to contribute to the project. Here are some examples:
 **Note:** In order to contribute to the Terminal or the Wiki, you need to have a [Github account](https://github.com/signup).  
 ## Overview   
 1. Fork the [Project](https://github.com/taha-mcp/interactive-terminal)
-2. Make your modifications
+2. Make your modifications (Don't know what to modify? Check the [Contribution Ideas](Contribution%20Ideas))
 3. Make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) to have your modifications added to the repository.  
 
 Full details are found below  
@@ -67,7 +67,7 @@ As a matter of fact, this command shown in this example has not been implemented
 ### Improving documentation
 This process is even easier than adding a new command! The process is akin to Wikipedia. In this wiki, at the top of everypage, you will see the following buttons: **Add new | Edit | Delete | History | Source | Add new post** You can esaily click on each of these buttons to edit a page or add new content. It's very simple and easy. This wiki is made using Markdown and Github. Everything in this wiki has been written using Markdown. Chances are, you are already familar with markdown. Take a look at this [Markdown cheatsheat](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). It is very useful! Don't forget to make a pull request after making a modification.
 ### Improving codebase
-All of the backend code of the terminal emulator is contained in `assets/js/main.js`. Everything is written is raw Javascript but I am not against JQuery. JQuery 3.5.1 already exists in the main branch.  
+All of the backend code of the terminal emulator is contained in `assets/js/main.js`. Everything is written is raw Javascript but I am not against JQuery. I still prefer raw JavaScript over it but still JQuery 3.5.1 already exists in the main branch.  
 The code could use a lot of improvements all across the board. Any help is greatly appreciated!
 ### Spreading the Word
 Tell your firends, tell your family, tell your local news paper about it, show it to people who want to get into linux but do not have a technical background and are afraid of the infamous Linux Terminal. Or you could just use it to play around and test things out! Get in touch with us via the [forum](https://github.com/taha-mcp/interactive-terminal/discussions). We'd love to hear from you!
