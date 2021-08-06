@@ -14,3 +14,6 @@ The bird artwork featured on this page and seen elsewhere is called the Owston's
 
 ## Contribute
 You can contribute to the TIT terminal emulator in many ways! We welcome all types of contributions. For more details, check out the [Contributions Guide](Contribution%20Guide).
+
+# Getting Started
+To get started learning the terminal check out [Getting Started](Getting%20Started). You'll learn some basic command and the basic shortcuts.
