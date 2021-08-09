@@ -1,3 +1,4 @@
+# Shortcuts
 Here you can find the current available shortcuts available in TIT. These shortcuts are applicable to almost all other linux terminal applications and interfaces.  
 
 | Keyboard_Shortcut | Description | Notes |
